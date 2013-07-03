@@ -8,9 +8,14 @@ describe "ResumePages" do
       page.should have_selector('h1',text: 'Resume')
     end
 
-    it "should have the title 'Resume'" do
+    it "should have the base title" do
       visit '/resume_page/home'
-      page.should have_selector('title',text: "RoR developer | Resume")
+      page.should have_selector('title',text: "RoR developer")
+    end
+
+    it "should not have a custom page title" do
+      visit '/resume_page/home'
+      page.should_not have_selector('title', text: ' | Resume')
     end
 
   end
