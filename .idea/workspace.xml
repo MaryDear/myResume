@@ -5,6 +5,7 @@
     <ignored path="myResume.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="8bdf11db-d995-4412-a1fb-ba4adbf8accf" time="1372850629079" ignored="false" />
+    <file path="/README.rdoc" changelist="8bdf11db-d995-4412-a1fb-ba4adbf8accf" time="1372851632401" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
