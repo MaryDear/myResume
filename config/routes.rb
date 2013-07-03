@@ -1,4 +1,6 @@
 MyResume::Application.routes.draw do
+  get "resume_page/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
